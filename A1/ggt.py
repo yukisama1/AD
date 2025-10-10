@@ -1,5 +1,5 @@
-a = 139
-b = 86
+a = 32
+b = 12
 
 def ggt_it(a, b):
     if a <= 0 or b <= 0:
