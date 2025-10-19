@@ -1,0 +1,9 @@
+# Eingabe: R0 = n
+# Ausgabe: R1 = Summe(0..n)
+
+1:  R1 := 0           # sum = 0
+2:  IF R0 = 0 GOTO 6  # wenn n == 0, fertig
+3:  R1 := R1 + R0     # sum = sum + n
+4:  R0 := R0 - 1      # n = n - 1
+5:  GOTO 2            # weiter solange n > 0
+6:  HALT
