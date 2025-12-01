@@ -1,0 +1,5 @@
+Die Formel für die Anzahl an Möglichkeiten eines minimalen AVL Baumes ist #(Bi - 2) * #(Bi - 1) * 2
+
+Die Formel für die Anzahl an Möglichkeiten eines AVL Baumes ist #(Bi - 1) * #(Bi - 2) * 2 + #(Bi - 1) * #(Bi - 1)
+
+

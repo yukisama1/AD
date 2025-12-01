@@ -1,9 +1,13 @@
-# Eingabe: R0 = n
-# Ausgabe: R1 = Summe(0..n)
-
-1:  R1 := 0           # sum = 0
-2:  IF R0 = 0 GOTO 6  # wenn n == 0, fertig
-3:  R1 := R1 + R0     # sum = sum + n
-4:  R0 := R0 - 1      # n = n - 1
-5:  GOTO 2            # weiter solange n > 0
-6:  HALT
+01 LDK 1       #1 in Akku
+02 STA 1       #1 nach a1
+03 INP 3       #input nach a3
+04 STA 2       #input nach a2
+05 LDA 3       #a3 in Akku
+06 JEZ 14      #wenn am ende dann sprung zum ende
+07 SUB 1       #Akku minus 1 aus a1
+08 STA 3       #n-1 in 03
+09 ADD 2       #Akku plus a2
+10 STA 2       #Ergebnis nach a2
+11 JMP 7       #loop zu 07
+12 OUT 2       #Ergebnis aus 02 ausgeben
+13 HLT 99      #Programmende
