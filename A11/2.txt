@@ -1,0 +1,1 @@
+Die Einträge des BB^T Matrixproduktes stellen die Anzahl der an Knoten anliegenden Kanten dar.

@@ -1,0 +1,1 @@
+Gerichtet, da die Adjazenzmatrix sonst an der Diagonalen von links nach rechts gespiegelt wäre.
